@@ -7,7 +7,7 @@ def check_tables(db):
         cursor = db.cursor()
         cur.execute("SELECT * FROM users")
         cursor.execute("SELECT * FROM words")
-    except sqlite3.DataError:
+    except sqlite3.OperationalError:
         create_tables(db)
 
     
