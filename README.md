@@ -29,7 +29,7 @@ python main.py
 ## Example of use
 ___
 
-The user does not know how to translate the word `сонце` in Ukrainian.\
+The user does not know how to translate the word `sun` in Ukrainian.\
 In order to learn the word, he starts the bot, after which a menu with commands will appear.\
 To add a new word, you need to write the command `/new` and input word and word translation through a space:
 > sun сонце 
